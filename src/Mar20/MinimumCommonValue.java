@@ -100,13 +100,7 @@ public class MinimumCommonValue {
         int[] nums1 = new int[]{1,2,3,6};
         int[] num2 = new int[]{2,3,4,5};
         System.out.println(mc.getCommon(nums1,num2));
-=======
-        }
-        return -1;
-    }
-    public static void main(String[] args)
-    {
 
->>>>>>> origin/master
+
     }
 }
