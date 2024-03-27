@@ -7,7 +7,8 @@ import java.util.Stack;
 public class ValidParenthesis {
 
     public boolean isValid(String s) {
-        /*Stack<Character> stack = new Stack<>();
+        /* Less Efficient approach
+        Stack<Character> stack = new Stack<>();
         HashMap<Character,Integer> open = new HashMap<>();
         HashMap<Character,Integer> close = new HashMap<>();
         open.put('(',1);open.put('{',2);open.put('[',3);
