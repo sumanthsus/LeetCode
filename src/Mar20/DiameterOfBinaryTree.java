@@ -84,6 +84,8 @@ public class DiameterOfBinaryTree {
         TreeNode node2 = new TreeNode(2, node4, node5);
         TreeNode root = new TreeNode(1, node2, node18);
 
+
+
         System.out.println(db.diameterOfBinaryTree(root));
 
 
